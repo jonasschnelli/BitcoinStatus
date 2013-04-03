@@ -17,6 +17,20 @@
 		E5002CEA170C11550057A99C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002CCA170C11540057A99C /* Cocoa.framework */; };
 		E5002CF2170C11550057A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002CF0170C11550057A99C /* InfoPlist.strings */; };
 		E5002CF5170C11550057A99C /* BitcoinStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002CF4170C11550057A99C /* BitcoinStatusTests.m */; };
+		E5002D01170C12E00057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D00170C12E00057A99C /* I7SStatusIconView.m */; };
+		E5002D02170C12E00057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D00170C12E00057A99C /* I7SStatusIconView.m */; };
+		E5002D05170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */; };
+		E5002D06170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */; };
+		E5002D08170C13A10057A99C /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D07170C13A10057A99C /* status_bar_icon.png */; };
+		E5002D09170C13A20057A99C /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D07170C13A10057A99C /* status_bar_icon.png */; };
+		E5002D0F170C176C0057A99C /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D0E170C176C0057A99C /* BSTextView.m */; };
+		E5002D10170C176C0057A99C /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D0E170C176C0057A99C /* BSTextView.m */; };
+		E5002D15170C1A1D0057A99C /* BSBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D14170C1A1D0057A99C /* BSBaseLoader.m */; };
+		E5002D16170C1A1D0057A99C /* BSBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D14170C1A1D0057A99C /* BSBaseLoader.m */; };
+		E5002D19170C1BB00057A99C /* BSMTGOXLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */; };
+		E5002D1A170C1BB00057A99C /* BSMTGOXLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */; };
+		E5002D1D170C1D0B0057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */; };
+		E5002D1E170C1D0B0057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,19 @@
 		E5002CF1170C11550057A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5002CF3170C11550057A99C /* BitcoinStatusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitcoinStatusTests.h; sourceTree = "<group>"; };
 		E5002CF4170C11550057A99C /* BitcoinStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinStatusTests.m; sourceTree = "<group>"; };
+		E5002CFF170C12E00057A99C /* I7SStatusIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconView.h; sourceTree = "<group>"; };
+		E5002D00170C12E00057A99C /* I7SStatusIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconView.m; sourceTree = "<group>"; };
+		E5002D03170C13040057A99C /* I7SStatusIconViewDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconViewDragView.h; sourceTree = "<group>"; };
+		E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconViewDragView.m; sourceTree = "<group>"; };
+		E5002D07170C13A10057A99C /* status_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar_icon.png; sourceTree = "<group>"; };
+		E5002D0D170C176C0057A99C /* BSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextView.h; sourceTree = "<group>"; };
+		E5002D0E170C176C0057A99C /* BSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextView.m; sourceTree = "<group>"; };
+		E5002D13170C1A1D0057A99C /* BSBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseLoader.h; sourceTree = "<group>"; };
+		E5002D14170C1A1D0057A99C /* BSBaseLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseLoader.m; sourceTree = "<group>"; };
+		E5002D17170C1BB00057A99C /* BSMTGOXLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMTGOXLoader.h; sourceTree = "<group>"; };
+		E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMTGOXLoader.m; sourceTree = "<group>"; };
+		E5002D1B170C1D0B0057A99C /* BSDataFromRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDataFromRemote.h; sourceTree = "<group>"; };
+		E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDataFromRemote.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +141,20 @@
 		E5002CD0170C11540057A99C /* BitcoinStatus */ = {
 			isa = PBXGroup;
 			children = (
+				E5002D11170C19FF0057A99C /* Loader */,
+				E5002D07170C13A10057A99C /* status_bar_icon.png */,
+				E5002CFF170C12E00057A99C /* I7SStatusIconView.h */,
+				E5002D00170C12E00057A99C /* I7SStatusIconView.m */,
+				E5002D03170C13040057A99C /* I7SStatusIconViewDragView.h */,
+				E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */,
 				E5002CDC170C11540057A99C /* AppDelegate.h */,
 				E5002CDD170C11540057A99C /* AppDelegate.m */,
 				E5002CDF170C11540057A99C /* MainMenu.xib */,
 				E5002CD1170C11540057A99C /* Supporting Files */,
+				E5002D0D170C176C0057A99C /* BSTextView.h */,
+				E5002D0E170C176C0057A99C /* BSTextView.m */,
+				E5002D1B170C1D0B0057A99C /* BSDataFromRemote.h */,
+				E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */,
 			);
 			path = BitcoinStatus;
 			sourceTree = "<group>";
@@ -151,6 +188,25 @@
 				E5002CF0170C11550057A99C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5002D11170C19FF0057A99C /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D12170C19FF0057A99C /* MTGOX */,
+				E5002D13170C1A1D0057A99C /* BSBaseLoader.h */,
+				E5002D14170C1A1D0057A99C /* BSBaseLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		E5002D12170C19FF0057A99C /* MTGOX */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D17170C1BB00057A99C /* BSMTGOXLoader.h */,
+				E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */,
+			);
+			path = MTGOX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +283,7 @@
 				E5002CD5170C11540057A99C /* InfoPlist.strings in Resources */,
 				E5002CDB170C11540057A99C /* Credits.rtf in Resources */,
 				E5002CE1170C11540057A99C /* MainMenu.xib in Resources */,
+				E5002D08170C13A10057A99C /* status_bar_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5002CF2170C11550057A99C /* InfoPlist.strings in Resources */,
+				E5002D09170C13A20057A99C /* status_bar_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +321,12 @@
 			files = (
 				E5002CD7170C11540057A99C /* main.m in Sources */,
 				E5002CDE170C11540057A99C /* AppDelegate.m in Sources */,
+				E5002D01170C12E00057A99C /* I7SStatusIconView.m in Sources */,
+				E5002D05170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */,
+				E5002D0F170C176C0057A99C /* BSTextView.m in Sources */,
+				E5002D15170C1A1D0057A99C /* BSBaseLoader.m in Sources */,
+				E5002D19170C1BB00057A99C /* BSMTGOXLoader.m in Sources */,
+				E5002D1D170C1D0B0057A99C /* BSDataFromRemote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +335,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5002CF5170C11550057A99C /* BitcoinStatusTests.m in Sources */,
+				E5002D02170C12E00057A99C /* I7SStatusIconView.m in Sources */,
+				E5002D06170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */,
+				E5002D10170C176C0057A99C /* BSTextView.m in Sources */,
+				E5002D16170C1A1D0057A99C /* BSBaseLoader.m in Sources */,
+				E5002D1A170C1BB00057A99C /* BSMTGOXLoader.m in Sources */,
+				E5002D1E170C1D0B0057A99C /* BSDataFromRemote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

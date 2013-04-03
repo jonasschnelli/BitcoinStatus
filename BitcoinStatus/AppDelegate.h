@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BSTextView.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSMenu *statusMenu;
+@property (strong) NSStatusItem * statusItem;
+@property (strong) BSTextView * mainTextView;
+
+
 
 @end
