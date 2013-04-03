@@ -1,8 +1,6 @@
 BitcoinStatus, a MacOSX statusbar application with Bitcoin trading infos (currently only mtgox)
 ================================
 
-http://www.bitcoin.org
-
 Copyright (c) 2013 BitcoinStatus Developer, current project maintainer: Jonas Schnelli
 
 Screenshots
