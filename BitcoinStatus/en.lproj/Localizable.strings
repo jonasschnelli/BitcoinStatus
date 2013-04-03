@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  BitcoinStatus
+
+  Created by Jonas Schnelli on 03.04.13.
+  Copyright (c) 2013 include7 AG. All rights reserved.
+*/
+
+"BSCurrencyUSD" = "USD";
+"BSCurrencyEUR" = "EUR";
+"BSCurrencyCHF" = "CHF";
+
+"Preferences" = "Preferences";
+"Check for updates" = "Check for updates";
+"About" = "About";
+"Quit" = "Quit";
+
+"Check for updates at startup" = "Check for updates at startup";
+"Automatically launch BitcoinStatus at startup" = "Automatically launch BitcoinStatus at startup";
+"Currency" = "Currency";

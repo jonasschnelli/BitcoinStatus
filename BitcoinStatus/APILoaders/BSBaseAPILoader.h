@@ -9,14 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "BSDataFromRemote.h"
 
-typedef enum BSCurrency {
-    BSCurrencyUSD,
-    BSCurrencyEUR,
-    BSCurrencyCHF
-} BSCurrency;
+
 
 @interface BSBaseAPILoader : NSObject
 
-+ (void)startLoadValueWithCurrency:(BSCurrency)currency;
++ (void)startLoadValueWithCurrency:(NSString *)currency;
 
 @end

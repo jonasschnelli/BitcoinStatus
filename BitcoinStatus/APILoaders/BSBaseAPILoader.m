@@ -10,7 +10,7 @@
 
 @implementation BSBaseAPILoader
 
-+ (void)startLoadValueWithCurrency:(BSCurrency)currency {
++ (void)startLoadValueWithCurrency:(NSString *)currency {
 
 }
 

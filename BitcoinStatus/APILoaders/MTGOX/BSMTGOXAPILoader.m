@@ -10,30 +10,46 @@
 
 @implementation BSMTGOXAPILoader
 
-+ (void)startLoadValueWithCurrency:(BSCurrency)currency {
-    NSURL *url = [NSURL URLWithString:@"https://data.mtgox.com/api/2/BTCUSD/money/ticker"];
++ (void)startLoadValueWithCurrency:(NSString *)currency {
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://data.mtgox.com/api/2/BTC%@/money/ticker", currency]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:10];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
                                
-                               NSString *jsonResponse = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                               NSLog(@"%@", jsonResponse);
+                               if(error || data == nil) {
+                                   [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:nil];
+                               }
+                               @try {
+                                   NSString *jsonResponse = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                                   NSLog(@"%@", jsonResponse);
+                                   
+                                   NSError *jsonError = nil;
+                                   id object = [NSJSONSerialization
+                                                JSONObjectWithData:data
+                                                options:0
+                                                error:&jsonError];
+                                   
+                                   if(jsonError) {
+                                       [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:nil];
+                                   }
+                                   
+                                   
+                                   // parse the right value
+                                   NSNumber *num = [[[(NSDictionary *)object objectForKey:@"data"] objectForKey:@"last"] objectForKey:@"value"];
+                                   
+                                   BSDataFromRemote *dataFromRemote = [[BSDataFromRemote alloc] init];
+                                   dataFromRemote.tradeValue = num;
+                                   
+                                   [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:dataFromRemote];
+                               }
+                               @catch (NSException *exception) {
+                                   [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:nil];
+                               }
+                               @finally {
+                                   
+                               }
                                
-                               NSError *jsonError = nil;
-                               id object = [NSJSONSerialization
-                                            JSONObjectWithData:data
-                                            options:0
-                                            error:&jsonError];
-                               NSLog(@"%@", object);
-                               
-                               // parse the right value
-                               NSNumber *num = [[[(NSDictionary *)object objectForKey:@"data"] objectForKey:@"avg"] objectForKey:@"value"];
-                               
-                               BSDataFromRemote *dataFromRemote = [[BSDataFromRemote alloc] init];
-                               dataFromRemote.tradeValue = num;
-                               
-                               [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:dataFromRemote];
                            }
      
      ];

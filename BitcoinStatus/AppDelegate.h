@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "BSTextView.h"
+#import <Quartz/Quartz.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -16,6 +17,6 @@
 @property (strong) NSStatusItem * statusItem;
 @property (strong) BSTextView * mainTextView;
 
-
+@property (assign) BOOL launchAtStartup;
 
 @end

@@ -42,6 +42,14 @@
 		E5002D4E170C381E0057A99C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
 		E5002D4F170C381E0057A99C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
 		E5002D51170C387C0057A99C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
+		E5002D53170C4C970057A99C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D52170C4C970057A99C /* Quartz.framework */; };
+		E5002D56170C55270057A99C /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D55170C55260057A99C /* LaunchAtLoginController.m */; };
+		E5002D57170C557D0057A99C /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D55170C55260057A99C /* LaunchAtLoginController.m */; };
+		E5002D59170C58670057A99C /* sparkle_update_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */; };
+		E5002D5A170C58670057A99C /* sparkle_update_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */; };
+		E5002D5E170C595C0057A99C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002D61170C595C0057A99C /* Localizable.strings */; };
+		E5002D5F170C595C0057A99C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002D61170C595C0057A99C /* Localizable.strings */; };
+		E5002D67170C6F7C0057A99C /* BitcoinStatus.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +117,16 @@
 		E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SPreferenceGeneralViewController.m; sourceTree = "<group>"; };
 		E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = I7SPreferenceGeneralViewController.xib; sourceTree = "<group>"; };
 		E5002D4D170C381E0057A99C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		E5002D52170C4C970057A99C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E5002D54170C55260057A99C /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		E5002D55170C55260057A99C /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_update_dsa_pub.pem; sourceTree = "<group>"; };
+		E5002D60170C595C0057A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5002D62170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5002D63170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E5002D64170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5002D65170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = BitcoinStatus.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5002D53170C4C970057A99C /* Quartz.framework in Frameworks */,
 				E5002CCB170C11540057A99C /* Cocoa.framework in Frameworks */,
 				E5002D4E170C381E0057A99C /* Sparkle.framework in Frameworks */,
 			);
@@ -137,6 +156,8 @@
 		E5002CBE170C11540057A99C = {
 			isa = PBXGroup;
 			children = (
+				E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */,
+				E5002D52170C4C970057A99C /* Quartz.framework */,
 				E5002CD0170C11540057A99C /* BitcoinStatus */,
 				E5002CED170C11550057A99C /* BitcoinStatusTests */,
 				E5002CC9170C11540057A99C /* Frameworks */,
@@ -177,6 +198,8 @@
 		E5002CD0170C11540057A99C /* BitcoinStatus */ = {
 			isa = PBXGroup;
 			children = (
+				E5002D54170C55260057A99C /* LaunchAtLoginController.h */,
+				E5002D55170C55260057A99C /* LaunchAtLoginController.m */,
 				E5002D3D170C365F0057A99C /* Settings */,
 				E5002D2E170C35F60057A99C /* StatusMenu */,
 				E5002D29170C35BC0057A99C /* DataModels */,
@@ -195,11 +218,13 @@
 		E5002CD1170C11540057A99C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */,
 				E5002CD2170C11540057A99C /* BitcoinStatus-Info.plist */,
 				E5002CD3170C11540057A99C /* InfoPlist.strings */,
 				E5002CD6170C11540057A99C /* main.m */,
 				E5002CD8170C11540057A99C /* BitcoinStatus-Prefix.pch */,
 				E5002CD9170C11540057A99C /* Credits.rtf */,
+				E5002D61170C595C0057A99C /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -348,6 +373,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = E5002CBE170C11540057A99C;
 			productRefGroup = E5002CC8170C11540057A99C /* Products */;
@@ -372,6 +398,9 @@
 				E5002D3A170C36250057A99C /* status_bar_icon@2x.png in Resources */,
 				E5002D44170C36800057A99C /* RHPreferencesWindow.xib in Resources */,
 				E5002D4B170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */,
+				E5002D59170C58670057A99C /* sparkle_update_dsa_pub.pem in Resources */,
+				E5002D5E170C595C0057A99C /* Localizable.strings in Resources */,
+				E5002D67170C6F7C0057A99C /* BitcoinStatus.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +411,8 @@
 				E5002CF2170C11550057A99C /* InfoPlist.strings in Resources */,
 				E5002D45170C36800057A99C /* RHPreferencesWindow.xib in Resources */,
 				E5002D4C170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */,
+				E5002D5A170C58670057A99C /* sparkle_update_dsa_pub.pem in Resources */,
+				E5002D5F170C595C0057A99C /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +449,7 @@
 				E5002D3C170C36480057A99C /* I7SStatusIconViewDragView.m in Sources */,
 				E5002D41170C366B0057A99C /* RHPreferencesWindowController.m in Sources */,
 				E5002D49170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */,
+				E5002D57170C557D0057A99C /* LaunchAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +466,7 @@
 				E5002D34170C361E0057A99C /* I7SStatusIconViewDragView.m in Sources */,
 				E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */,
 				E5002D4A170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */,
+				E5002D56170C55270057A99C /* LaunchAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +485,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5002CD4170C11540057A99C /* en */,
+				E5002D62170C5A920057A99C /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -460,6 +494,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5002CDA170C11540057A99C /* en */,
+				E5002D63170C5A920057A99C /* de */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -476,8 +511,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5002CF1170C11550057A99C /* en */,
+				E5002D65170C5A920057A99C /* de */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5002D61170C595C0057A99C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5002D60170C595C0057A99C /* en */,
+				E5002D64170C5A920057A99C /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -510,7 +555,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -537,7 +582,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;

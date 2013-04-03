@@ -5,5 +5,11 @@
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
 
-    #define BSNewDataFromRemoteNotification @"BSNewDataFromRemoteNotification"
+    #define BSUserDefaultsCurrencyKey               @"BSCurrency"
+    #define BSUserDefaultsUpdateIntervalKey         @"BSUpdateInterval"
+
+    #define BSNewDataFromRemoteNotification         @"BSNewDataFromRemoteNotification"
+    #define BSShouldReloadFromRemoteNotification    @"BSShouldReloadFromRemoteNotification"
+    #define BSShouldResetTimerNotification          @"BSShouldResetTimerNotification"
+
 #endif
