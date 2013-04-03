@@ -9,10 +9,6 @@ Screenshots
 ----
 [![screen 0](https://raw.github.com/jonasschnelli/BitcoinStatus/master/Screenshots/0.png)](#screenshot)
 [![screen 1](https://raw.github.com/jonasschnelli/BitcoinStatus/master/Screenshots/1.png)](#screenshot)
-=======
-[![screen 0](https://github.com/jonasschnelli/BitcoinStatus/blob/master/Screenshots/0.png)](#screenshot)
-[![screen 1](https://github.com/jonasschnelli/BitcoinStatus/blob/master/Screenshots/1.png)](#screenshot)
->>>>>>> a50ee78025ece757e9d5c24b01a75efbe7e644d3
 
 Todo
 ----
