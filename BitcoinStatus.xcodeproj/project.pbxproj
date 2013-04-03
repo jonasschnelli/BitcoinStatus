@@ -17,20 +17,31 @@
 		E5002CEA170C11550057A99C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002CCA170C11540057A99C /* Cocoa.framework */; };
 		E5002CF2170C11550057A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002CF0170C11550057A99C /* InfoPlist.strings */; };
 		E5002CF5170C11550057A99C /* BitcoinStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002CF4170C11550057A99C /* BitcoinStatusTests.m */; };
-		E5002D01170C12E00057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D00170C12E00057A99C /* I7SStatusIconView.m */; };
-		E5002D02170C12E00057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D00170C12E00057A99C /* I7SStatusIconView.m */; };
-		E5002D05170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */; };
-		E5002D06170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */; };
-		E5002D08170C13A10057A99C /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D07170C13A10057A99C /* status_bar_icon.png */; };
-		E5002D09170C13A20057A99C /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D07170C13A10057A99C /* status_bar_icon.png */; };
 		E5002D0F170C176C0057A99C /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D0E170C176C0057A99C /* BSTextView.m */; };
 		E5002D10170C176C0057A99C /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D0E170C176C0057A99C /* BSTextView.m */; };
-		E5002D15170C1A1D0057A99C /* BSBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D14170C1A1D0057A99C /* BSBaseLoader.m */; };
-		E5002D16170C1A1D0057A99C /* BSBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D14170C1A1D0057A99C /* BSBaseLoader.m */; };
-		E5002D19170C1BB00057A99C /* BSMTGOXLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */; };
-		E5002D1A170C1BB00057A99C /* BSMTGOXLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */; };
-		E5002D1D170C1D0B0057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */; };
-		E5002D1E170C1D0B0057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */; };
+		E5002D25170C35B20057A99C /* BSBaseAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D21170C35B20057A99C /* BSBaseAPILoader.m */; };
+		E5002D26170C35B20057A99C /* BSBaseAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D21170C35B20057A99C /* BSBaseAPILoader.m */; };
+		E5002D27170C35B20057A99C /* BSMTGOXAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D24170C35B20057A99C /* BSMTGOXAPILoader.m */; };
+		E5002D28170C35B20057A99C /* BSMTGOXAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D24170C35B20057A99C /* BSMTGOXAPILoader.m */; };
+		E5002D2C170C35CE0057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D2B170C35CE0057A99C /* BSDataFromRemote.m */; };
+		E5002D2D170C35D70057A99C /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D2B170C35CE0057A99C /* BSDataFromRemote.m */; };
+		E5002D33170C361E0057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D30170C361E0057A99C /* I7SStatusIconView.m */; };
+		E5002D34170C361E0057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */; };
+		E5002D39170C36250057A99C /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D37170C36250057A99C /* status_bar_icon.png */; };
+		E5002D3A170C36250057A99C /* status_bar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D38170C36250057A99C /* status_bar_icon@2x.png */; };
+		E5002D3B170C36450057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D30170C361E0057A99C /* I7SStatusIconView.m */; };
+		E5002D3C170C36480057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */; };
+		E5002D41170C366B0057A99C /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; };
+		E5002D44170C36800057A99C /* RHPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D43170C36800057A99C /* RHPreferencesWindow.xib */; };
+		E5002D45170C36800057A99C /* RHPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D43170C36800057A99C /* RHPreferencesWindow.xib */; };
+		E5002D49170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */; };
+		E5002D4A170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */; };
+		E5002D4B170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */; };
+		E5002D4C170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */; };
+		E5002D4E170C381E0057A99C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
+		E5002D4F170C381E0057A99C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
+		E5002D51170C387C0057A99C /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5002D4D170C381E0057A99C /* Sparkle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +53,19 @@
 			remoteInfo = BitcoinStatus;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5002D50170C38760057A99C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5002D51170C387C0057A99C /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E5002CC7170C11540057A99C /* BitcoinStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,19 +87,28 @@
 		E5002CF1170C11550057A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5002CF3170C11550057A99C /* BitcoinStatusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitcoinStatusTests.h; sourceTree = "<group>"; };
 		E5002CF4170C11550057A99C /* BitcoinStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinStatusTests.m; sourceTree = "<group>"; };
-		E5002CFF170C12E00057A99C /* I7SStatusIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconView.h; sourceTree = "<group>"; };
-		E5002D00170C12E00057A99C /* I7SStatusIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconView.m; sourceTree = "<group>"; };
-		E5002D03170C13040057A99C /* I7SStatusIconViewDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconViewDragView.h; sourceTree = "<group>"; };
-		E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconViewDragView.m; sourceTree = "<group>"; };
-		E5002D07170C13A10057A99C /* status_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar_icon.png; sourceTree = "<group>"; };
 		E5002D0D170C176C0057A99C /* BSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextView.h; sourceTree = "<group>"; };
 		E5002D0E170C176C0057A99C /* BSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextView.m; sourceTree = "<group>"; };
-		E5002D13170C1A1D0057A99C /* BSBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseLoader.h; sourceTree = "<group>"; };
-		E5002D14170C1A1D0057A99C /* BSBaseLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseLoader.m; sourceTree = "<group>"; };
-		E5002D17170C1BB00057A99C /* BSMTGOXLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMTGOXLoader.h; sourceTree = "<group>"; };
-		E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMTGOXLoader.m; sourceTree = "<group>"; };
-		E5002D1B170C1D0B0057A99C /* BSDataFromRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDataFromRemote.h; sourceTree = "<group>"; };
-		E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDataFromRemote.m; sourceTree = "<group>"; };
+		E5002D20170C35B20057A99C /* BSBaseAPILoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBaseAPILoader.h; sourceTree = "<group>"; };
+		E5002D21170C35B20057A99C /* BSBaseAPILoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBaseAPILoader.m; sourceTree = "<group>"; };
+		E5002D23170C35B20057A99C /* BSMTGOXAPILoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMTGOXAPILoader.h; sourceTree = "<group>"; };
+		E5002D24170C35B20057A99C /* BSMTGOXAPILoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMTGOXAPILoader.m; sourceTree = "<group>"; };
+		E5002D2A170C35CE0057A99C /* BSDataFromRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDataFromRemote.h; sourceTree = "<group>"; };
+		E5002D2B170C35CE0057A99C /* BSDataFromRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDataFromRemote.m; sourceTree = "<group>"; };
+		E5002D2F170C361E0057A99C /* I7SStatusIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconView.h; sourceTree = "<group>"; };
+		E5002D30170C361E0057A99C /* I7SStatusIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconView.m; sourceTree = "<group>"; };
+		E5002D31170C361E0057A99C /* I7SStatusIconViewDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SStatusIconViewDragView.h; sourceTree = "<group>"; };
+		E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SStatusIconViewDragView.m; sourceTree = "<group>"; };
+		E5002D37170C36250057A99C /* status_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar_icon.png; sourceTree = "<group>"; };
+		E5002D38170C36250057A99C /* status_bar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status_bar_icon@2x.png"; sourceTree = "<group>"; };
+		E5002D3E170C366B0057A99C /* RHPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPreferences.h; sourceTree = "<group>"; };
+		E5002D3F170C366B0057A99C /* RHPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPreferencesWindowController.h; sourceTree = "<group>"; };
+		E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPreferencesWindowController.m; sourceTree = "<group>"; };
+		E5002D43170C36800057A99C /* RHPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RHPreferencesWindow.xib; sourceTree = "<group>"; };
+		E5002D46170C37370057A99C /* I7SPreferenceGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I7SPreferenceGeneralViewController.h; sourceTree = "<group>"; };
+		E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I7SPreferenceGeneralViewController.m; sourceTree = "<group>"; };
+		E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = I7SPreferenceGeneralViewController.xib; sourceTree = "<group>"; };
+		E5002D4D170C381E0057A99C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5002CCB170C11540057A99C /* Cocoa.framework in Frameworks */,
+				E5002D4E170C381E0057A99C /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +127,7 @@
 			files = (
 				E5002CE9170C11550057A99C /* SenTestingKit.framework in Frameworks */,
 				E5002CEA170C11550057A99C /* Cocoa.framework in Frameworks */,
+				E5002D4F170C381E0057A99C /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +156,7 @@
 		E5002CC9170C11540057A99C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5002D4D170C381E0057A99C /* Sparkle.framework */,
 				E5002CCA170C11540057A99C /* Cocoa.framework */,
 				E5002CE8170C11550057A99C /* SenTestingKit.framework */,
 				E5002CCC170C11540057A99C /* Other Frameworks */,
@@ -141,20 +177,17 @@
 		E5002CD0170C11540057A99C /* BitcoinStatus */ = {
 			isa = PBXGroup;
 			children = (
-				E5002D11170C19FF0057A99C /* Loader */,
-				E5002D07170C13A10057A99C /* status_bar_icon.png */,
-				E5002CFF170C12E00057A99C /* I7SStatusIconView.h */,
-				E5002D00170C12E00057A99C /* I7SStatusIconView.m */,
-				E5002D03170C13040057A99C /* I7SStatusIconViewDragView.h */,
-				E5002D04170C13040057A99C /* I7SStatusIconViewDragView.m */,
+				E5002D3D170C365F0057A99C /* Settings */,
+				E5002D2E170C35F60057A99C /* StatusMenu */,
+				E5002D29170C35BC0057A99C /* DataModels */,
+				E5002D1F170C35B20057A99C /* APILoaders */,
 				E5002CDC170C11540057A99C /* AppDelegate.h */,
 				E5002CDD170C11540057A99C /* AppDelegate.m */,
 				E5002CDF170C11540057A99C /* MainMenu.xib */,
+				E5002D35170C36250057A99C /* Res */,
 				E5002CD1170C11540057A99C /* Supporting Files */,
 				E5002D0D170C176C0057A99C /* BSTextView.h */,
 				E5002D0E170C176C0057A99C /* BSTextView.m */,
-				E5002D1B170C1D0B0057A99C /* BSDataFromRemote.h */,
-				E5002D1C170C1D0B0057A99C /* BSDataFromRemote.m */,
 			);
 			path = BitcoinStatus;
 			sourceTree = "<group>";
@@ -190,23 +223,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E5002D11170C19FF0057A99C /* Loader */ = {
+		E5002D1F170C35B20057A99C /* APILoaders */ = {
 			isa = PBXGroup;
 			children = (
-				E5002D12170C19FF0057A99C /* MTGOX */,
-				E5002D13170C1A1D0057A99C /* BSBaseLoader.h */,
-				E5002D14170C1A1D0057A99C /* BSBaseLoader.m */,
+				E5002D20170C35B20057A99C /* BSBaseAPILoader.h */,
+				E5002D21170C35B20057A99C /* BSBaseAPILoader.m */,
+				E5002D22170C35B20057A99C /* MTGOX */,
 			);
-			path = Loader;
+			path = APILoaders;
 			sourceTree = "<group>";
 		};
-		E5002D12170C19FF0057A99C /* MTGOX */ = {
+		E5002D22170C35B20057A99C /* MTGOX */ = {
 			isa = PBXGroup;
 			children = (
-				E5002D17170C1BB00057A99C /* BSMTGOXLoader.h */,
-				E5002D18170C1BB00057A99C /* BSMTGOXLoader.m */,
+				E5002D23170C35B20057A99C /* BSMTGOXAPILoader.h */,
+				E5002D24170C35B20057A99C /* BSMTGOXAPILoader.m */,
 			);
 			path = MTGOX;
+			sourceTree = "<group>";
+		};
+		E5002D29170C35BC0057A99C /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D2A170C35CE0057A99C /* BSDataFromRemote.h */,
+				E5002D2B170C35CE0057A99C /* BSDataFromRemote.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		E5002D2E170C35F60057A99C /* StatusMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D2F170C361E0057A99C /* I7SStatusIconView.h */,
+				E5002D30170C361E0057A99C /* I7SStatusIconView.m */,
+				E5002D31170C361E0057A99C /* I7SStatusIconViewDragView.h */,
+				E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */,
+			);
+			path = StatusMenu;
+			sourceTree = "<group>";
+		};
+		E5002D35170C36250057A99C /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D36170C36250057A99C /* GFX */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		E5002D36170C36250057A99C /* GFX */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D37170C36250057A99C /* status_bar_icon.png */,
+				E5002D38170C36250057A99C /* status_bar_icon@2x.png */,
+			);
+			path = GFX;
+			sourceTree = "<group>";
+		};
+		E5002D3D170C365F0057A99C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E5002D46170C37370057A99C /* I7SPreferenceGeneralViewController.h */,
+				E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */,
+				E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */,
+				E5002D3E170C366B0057A99C /* RHPreferences.h */,
+				E5002D3F170C366B0057A99C /* RHPreferencesWindowController.h */,
+				E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */,
+				E5002D43170C36800057A99C /* RHPreferencesWindow.xib */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +303,7 @@
 				E5002CC3170C11540057A99C /* Sources */,
 				E5002CC4170C11540057A99C /* Frameworks */,
 				E5002CC5170C11540057A99C /* Resources */,
+				E5002D50170C38760057A99C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -283,7 +368,10 @@
 				E5002CD5170C11540057A99C /* InfoPlist.strings in Resources */,
 				E5002CDB170C11540057A99C /* Credits.rtf in Resources */,
 				E5002CE1170C11540057A99C /* MainMenu.xib in Resources */,
-				E5002D08170C13A10057A99C /* status_bar_icon.png in Resources */,
+				E5002D39170C36250057A99C /* status_bar_icon.png in Resources */,
+				E5002D3A170C36250057A99C /* status_bar_icon@2x.png in Resources */,
+				E5002D44170C36800057A99C /* RHPreferencesWindow.xib in Resources */,
+				E5002D4B170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +380,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5002CF2170C11550057A99C /* InfoPlist.strings in Resources */,
-				E5002D09170C13A20057A99C /* status_bar_icon.png in Resources */,
+				E5002D45170C36800057A99C /* RHPreferencesWindow.xib in Resources */,
+				E5002D4C170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +410,14 @@
 			files = (
 				E5002CD7170C11540057A99C /* main.m in Sources */,
 				E5002CDE170C11540057A99C /* AppDelegate.m in Sources */,
-				E5002D01170C12E00057A99C /* I7SStatusIconView.m in Sources */,
-				E5002D05170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */,
 				E5002D0F170C176C0057A99C /* BSTextView.m in Sources */,
-				E5002D15170C1A1D0057A99C /* BSBaseLoader.m in Sources */,
-				E5002D19170C1BB00057A99C /* BSMTGOXLoader.m in Sources */,
-				E5002D1D170C1D0B0057A99C /* BSDataFromRemote.m in Sources */,
+				E5002D25170C35B20057A99C /* BSBaseAPILoader.m in Sources */,
+				E5002D27170C35B20057A99C /* BSMTGOXAPILoader.m in Sources */,
+				E5002D2D170C35D70057A99C /* BSDataFromRemote.m in Sources */,
+				E5002D3B170C36450057A99C /* I7SStatusIconView.m in Sources */,
+				E5002D3C170C36480057A99C /* I7SStatusIconViewDragView.m in Sources */,
+				E5002D41170C366B0057A99C /* RHPreferencesWindowController.m in Sources */,
+				E5002D49170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,12 +426,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5002CF5170C11550057A99C /* BitcoinStatusTests.m in Sources */,
-				E5002D02170C12E00057A99C /* I7SStatusIconView.m in Sources */,
-				E5002D06170C13040057A99C /* I7SStatusIconViewDragView.m in Sources */,
 				E5002D10170C176C0057A99C /* BSTextView.m in Sources */,
-				E5002D16170C1A1D0057A99C /* BSBaseLoader.m in Sources */,
-				E5002D1A170C1BB00057A99C /* BSMTGOXLoader.m in Sources */,
-				E5002D1E170C1D0B0057A99C /* BSDataFromRemote.m in Sources */,
+				E5002D26170C35B20057A99C /* BSBaseAPILoader.m in Sources */,
+				E5002D28170C35B20057A99C /* BSMTGOXAPILoader.m in Sources */,
+				E5002D2C170C35CE0057A99C /* BSDataFromRemote.m in Sources */,
+				E5002D33170C361E0057A99C /* I7SStatusIconView.m in Sources */,
+				E5002D34170C361E0057A99C /* I7SStatusIconViewDragView.m in Sources */,
+				E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */,
+				E5002D4A170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,9 +546,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinStatus/BitcoinStatus-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,9 +563,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinStatus/BitcoinStatus-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -478,7 +581,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitcoinStatus.app/Contents/MacOS/BitcoinStatus";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinStatusTests/BitcoinStatusTests-Info.plist";
@@ -493,7 +599,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BitcoinStatus.app/Contents/MacOS/BitcoinStatus";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
 				INFOPLIST_FILE = "BitcoinStatusTests/BitcoinStatusTests-Info.plist";

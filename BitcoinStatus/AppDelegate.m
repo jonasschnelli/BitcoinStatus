@@ -8,17 +8,27 @@
 
 #import "AppDelegate.h"
 #import "I7SStatusIconView.h"
-#import "BSMTGOXLoader.h"
+#import "BSMTGOXAPILoader.h"
+#import "I7SPreferenceGeneralViewController.h"
+#import "RHPreferencesWindowController.h"
 
+
+//private declarations
 @interface AppDelegate ()
 @property (strong) NSNumberFormatter * numberFormatter;
+@property (strong) RHPreferencesWindowController * preferencesWindowController;
 @end
 
+
+
 @implementation AppDelegate
+
 @synthesize statusItem=_statusItem;
 @synthesize statusMenu=_statusMenu;
 @synthesize mainTextView=_mainTextView;
 @synthesize numberFormatter=_numberFormatter;
+@synthesize preferencesWindowController=_preferencesWindowController;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // make a global menu (extra menu) item
@@ -31,15 +41,34 @@
     [statusIconView setMenu:self.statusMenu];
     
     // add a image
-    NSImageView *statusMenuIconImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(1, 3,26,16)];
+    NSImageView *statusMenuIconImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(1, 3,26,18)];
     statusMenuIconImageView.image = [NSImage imageNamed:@"status_bar_icon.png"];
     //[statusMenuIconImageView setWantsLayer:YES];
     
     self.mainTextView = [[BSTextView alloc] initWithFrame:NSMakeRect(15, 3,106,16)];
-    self.mainTextView.font = [NSFont systemFontOfSize:12];
+    self.mainTextView.font = [NSFont boldSystemFontOfSize:14];
     self.mainTextView.string = @"TEST";
     self.mainTextView.backgroundColor = [NSColor clearColor];
     self.mainTextView.editable = NO;
+    
+
+    NSFont *font = [NSFont systemFontOfSize:12];
+    NSDictionary *attrsDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:font, [NSColor blackColor], nil]
+                                                                forKeys:[NSArray arrayWithObjects:NSFontAttributeName, NSForegroundColorAttributeName, nil] ];
+    NSMutableAttributedString* text = [[NSMutableAttributedString alloc] initWithString:@"TEST" attributes:attrsDictionary];
+
+    NSShadow* shadow = [[NSShadow alloc] init];
+    
+    [shadow setShadowColor:[NSColor colorWithCalibratedWhite:1.0
+                                                       alpha:0.5]];
+    [shadow setShadowOffset:NSMakeSize(0.0, -1)];
+    [shadow setShadowBlurRadius:0.0];
+    
+    [text addAttribute:NSShadowAttributeName value:shadow
+                 range:NSMakeRange(0, [text length])];
+    [[self.mainTextView textStorage] setAttributedString:text];
+    
+    
     self.mainTextView.selectable = NO;
     self.mainTextView.iconView = statusIconView;
 
@@ -53,6 +82,7 @@
     
     self.numberFormatter = [[NSNumberFormatter alloc] init];
     [self.numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [self.numberFormatter setMaximumFractionDigits:2];
     
 
     
@@ -64,12 +94,23 @@
     [self loadData];
 }
 
+- (IBAction)showPreferences:(id)sender {
+    I7SPreferenceGeneralViewController *general = [[I7SPreferenceGeneralViewController alloc] initWithNibName:@"I7SPreferenceGeneralViewController" bundle:nil];
+    
+    NSArray *controllers = [NSArray arrayWithObjects:general,
+                            nil];
+    
+    self.preferencesWindowController = [[RHPreferencesWindowController alloc] initWithViewControllers:controllers andTitle:NSLocalizedString(@"Preferences", @"Preferences Window Title")];
+    [self.preferencesWindowController showWindow:self];
+    [self.preferencesWindowController.window orderFrontRegardless];
+}
+
 - (void)loadAfterStandardDelay {
     [NSTimer scheduledTimerWithTimeInterval:60.0 target:self selector:@selector(loadData) userInfo:nil repeats:NO];
 }
 
 - (void)loadData {
-    [BSMTGOXLoader startLoadValueWithCurrency:BSCurrencyCHF];
+    [BSMTGOXAPILoader startLoadValueWithCurrency:BSCurrencyCHF];
 }
 
 - (void)newDataNotificationRecived:(NSNotification *)notification {
