@@ -10,8 +10,8 @@ Screenshots
 
 BinaryInstall 
 -------------
-Requirements: MacOSX 10.7+ 64Bit
-http://www.include7.ch/bitcoinstatusapp/BitcoinStatusV0.1Beta.dmg
++ Requirements: MacOSX 10.7+ 64Bit
++ http://www.include7.ch/bitcoinstatusapp/BitcoinStatusV0.1Beta.dmg
 
 Todo
 ----
