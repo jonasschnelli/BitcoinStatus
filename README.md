@@ -5,6 +5,11 @@ http://www.bitcoin.org
 
 Copyright (c) 2013 BitcoinStatus Developer, current project maintainer: Jonas Schnelli
 
+Screenshots
+----
+[![screen 0](https://github.com/jonasschnelli/BitcoinStatus/blob/master/Screenshots/0.png)](#screenshot)
+[![screen 1](https://github.com/jonasschnelli/BitcoinStatus/blob/master/Screenshots/1.png)](#screenshot)
+
 Todo
 ----
 + cleanup code, write some documentation
