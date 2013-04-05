@@ -58,11 +58,13 @@
 }
 
 - (void)menuWillOpen:(NSMenu *)menu {
+    [[NSNotificationCenter defaultCenter] postNotificationName:BSMenuWillShowNotification object:nil];
     isMenuVisible = YES;
     [self setNeedsDisplay:YES];
 }
 
 - (void)menuDidClose:(NSMenu *)menu {
+    [[NSNotificationCenter defaultCenter] postNotificationName:BSMenuWillHideNotification object:nil];
     isMenuVisible = NO;
     [menu setDelegate:nil];    
     [self setNeedsDisplay:YES];

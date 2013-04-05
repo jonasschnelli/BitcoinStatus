@@ -16,5 +16,5 @@
 "Quit" = "Quit";
 
 "Check for updates at startup" = "Check for updates at startup";
-"Automatically launch BitcoinStatus at startup" = "Automatically launch BitcoinStatus at startup";
+"Automatically launch BitcoinStatus at startup" = "Automatically launch BitcoinTicker at startup";
 "Currency" = "Currency";

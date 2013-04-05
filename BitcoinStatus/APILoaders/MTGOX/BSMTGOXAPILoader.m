@@ -33,15 +33,15 @@
                                    if(jsonError) {
                                        [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:nil];
                                    }
-                                   
-                                   
-                                   // parse the right value
-                                   NSNumber *num = [[[(NSDictionary *)object objectForKey:@"data"] objectForKey:@"last"] objectForKey:@"value"];
-                                   
-                                   BSDataFromRemote *dataFromRemote = [[BSDataFromRemote alloc] init];
-                                   dataFromRemote.tradeValue = num;
-                                   
-                                   [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:dataFromRemote];
+                                   else {
+                                       // parse the right value
+                                       NSNumber *num = [[[(NSDictionary *)object objectForKey:@"data"] objectForKey:@"last"] objectForKey:@"value"];
+                                       
+                                       BSDataFromRemote *dataFromRemote = [[BSDataFromRemote alloc] init];
+                                       dataFromRemote.tradeValue = num;
+                                       
+                                       [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:dataFromRemote];
+                                   }
                                }
                                @catch (NSException *exception) {
                                    [[NSNotificationCenter defaultCenter] postNotificationName:BSNewDataFromRemoteNotification object:nil];

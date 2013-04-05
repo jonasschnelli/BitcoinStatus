@@ -11,5 +11,7 @@
     #define BSNewDataFromRemoteNotification         @"BSNewDataFromRemoteNotification"
     #define BSShouldReloadFromRemoteNotification    @"BSShouldReloadFromRemoteNotification"
     #define BSShouldResetTimerNotification          @"BSShouldResetTimerNotification"
+    #define BSMenuWillShowNotification              @"BSMenuWillShowNotification"
+    #define BSMenuWillHideNotification              @"BSMenuWillHideNotification"
 
 #endif

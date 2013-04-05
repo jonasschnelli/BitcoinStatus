@@ -32,7 +32,7 @@
 		E5002D3B170C36450057A99C /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D30170C361E0057A99C /* I7SStatusIconView.m */; };
 		E5002D3C170C36480057A99C /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */; };
 		E5002D41170C366B0057A99C /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; };
+		E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5002D44170C36800057A99C /* RHPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D43170C36800057A99C /* RHPreferencesWindow.xib */; };
 		E5002D45170C36800057A99C /* RHPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D43170C36800057A99C /* RHPreferencesWindow.xib */; };
 		E5002D49170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */; };
@@ -50,6 +50,29 @@
 		E5002D5E170C595C0057A99C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002D61170C595C0057A99C /* Localizable.strings */; };
 		E5002D5F170C595C0057A99C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002D61170C595C0057A99C /* Localizable.strings */; };
 		E5002D67170C6F7C0057A99C /* BitcoinStatus.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */; };
+		E59C6FD2170EBCCF00CA000A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002CD6170C11540057A99C /* main.m */; };
+		E59C6FD3170EBCCF00CA000A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002CDD170C11540057A99C /* AppDelegate.m */; };
+		E59C6FD4170EBCCF00CA000A /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D0E170C176C0057A99C /* BSTextView.m */; };
+		E59C6FD5170EBCCF00CA000A /* BSBaseAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D21170C35B20057A99C /* BSBaseAPILoader.m */; };
+		E59C6FD6170EBCCF00CA000A /* BSMTGOXAPILoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D24170C35B20057A99C /* BSMTGOXAPILoader.m */; };
+		E59C6FD7170EBCCF00CA000A /* BSDataFromRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D2B170C35CE0057A99C /* BSDataFromRemote.m */; };
+		E59C6FD8170EBCCF00CA000A /* I7SStatusIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D30170C361E0057A99C /* I7SStatusIconView.m */; };
+		E59C6FD9170EBCCF00CA000A /* I7SStatusIconViewDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D32170C361E0057A99C /* I7SStatusIconViewDragView.m */; };
+		E59C6FDA170EBCCF00CA000A /* RHPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E59C6FDB170EBCCF00CA000A /* I7SPreferenceGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */; };
+		E59C6FDC170EBCCF00CA000A /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5002D55170C55260057A99C /* LaunchAtLoginController.m */; };
+		E59C6FDE170EBCCF00CA000A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002D52170C4C970057A99C /* Quartz.framework */; };
+		E59C6FDF170EBCCF00CA000A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5002CCA170C11540057A99C /* Cocoa.framework */; };
+		E59C6FE2170EBCCF00CA000A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002CD3170C11540057A99C /* InfoPlist.strings */; };
+		E59C6FE3170EBCCF00CA000A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5002CD9170C11540057A99C /* Credits.rtf */; };
+		E59C6FE4170EBCCF00CA000A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002CDF170C11540057A99C /* MainMenu.xib */; };
+		E59C6FE5170EBCCF00CA000A /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D37170C36250057A99C /* status_bar_icon.png */; };
+		E59C6FE6170EBCCF00CA000A /* status_bar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5002D38170C36250057A99C /* status_bar_icon@2x.png */; };
+		E59C6FE7170EBCCF00CA000A /* RHPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5002D43170C36800057A99C /* RHPreferencesWindow.xib */; };
+		E59C6FE9170EBCCF00CA000A /* sparkle_update_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */; };
+		E59C6FEA170EBCCF00CA000A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5002D61170C595C0057A99C /* Localizable.strings */; };
+		E59C6FEB170EBCCF00CA000A /* BitcoinStatus.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */; };
+		E59C6FF6170EBE7300CA000A /* I7SPreferenceGeneralViewControllerAppStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56C38E5170EB8C000F4FFF5 /* I7SPreferenceGeneralViewControllerAppStore.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +93,15 @@
 			dstSubfolderSpec = 10;
 			files = (
 				E5002D51170C387C0057A99C /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59C6FEC170EBCCF00CA000A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,12 +153,16 @@
 		E5002D54170C55260057A99C /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
 		E5002D55170C55260057A99C /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_update_dsa_pub.pem; sourceTree = "<group>"; };
-		E5002D60170C595C0057A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5002D60170C595C0057A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E5002D62170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5002D63170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E5002D64170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E5002D64170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E5002D65170C5A920057A99C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = BitcoinStatus.iconset; sourceTree = "<group>"; };
+		E56C38E5170EB8C000F4FFF5 /* I7SPreferenceGeneralViewControllerAppStore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = I7SPreferenceGeneralViewControllerAppStore.xib; sourceTree = "<group>"; };
+		E59C6FF1170EBCCF00CA000A /* BitcoinTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59C6FF4170EBE6D00CA000A /* BitcoinStatusAppStore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BitcoinStatusAppStore-Info.plist"; sourceTree = "<group>"; };
+		E59C6FF7170EE7F400CA000A /* BitcoinTicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BitcoinTicker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +186,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E59C6FDD170EBCCF00CA000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59C6FDE170EBCCF00CA000A /* Quartz.framework in Frameworks */,
+				E59C6FDF170EBCCF00CA000A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E5002CBE170C11540057A99C = {
 			isa = PBXGroup;
 			children = (
+				E59C6FF7170EE7F400CA000A /* BitcoinTicker.entitlements */,
 				E5002D66170C6F7C0057A99C /* BitcoinStatus.iconset */,
 				E5002D52170C4C970057A99C /* Quartz.framework */,
 				E5002CD0170C11540057A99C /* BitcoinStatus */,
@@ -170,6 +216,7 @@
 			children = (
 				E5002CC7170C11540057A99C /* BitcoinStatus.app */,
 				E5002CE7170C11550057A99C /* BitcoinStatusTests.octest */,
+				E59C6FF1170EBCCF00CA000A /* BitcoinTicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				E5002D58170C58670057A99C /* sparkle_update_dsa_pub.pem */,
+				E59C6FF4170EBE6D00CA000A /* BitcoinStatusAppStore-Info.plist */,
 				E5002CD2170C11540057A99C /* BitcoinStatus-Info.plist */,
 				E5002CD3170C11540057A99C /* InfoPlist.strings */,
 				E5002CD6170C11540057A99C /* main.m */,
@@ -310,6 +358,7 @@
 				E5002D46170C37370057A99C /* I7SPreferenceGeneralViewController.h */,
 				E5002D47170C37370057A99C /* I7SPreferenceGeneralViewController.m */,
 				E5002D48170C37370057A99C /* I7SPreferenceGeneralViewController.xib */,
+				E56C38E5170EB8C000F4FFF5 /* I7SPreferenceGeneralViewControllerAppStore.xib */,
 				E5002D3E170C366B0057A99C /* RHPreferences.h */,
 				E5002D3F170C366B0057A99C /* RHPreferencesWindowController.h */,
 				E5002D40170C366B0057A99C /* RHPreferencesWindowController.m */,
@@ -358,6 +407,24 @@
 			productReference = E5002CE7170C11550057A99C /* BitcoinStatusTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		E59C6FD0170EBCCF00CA000A /* BitcoinTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59C6FEE170EBCCF00CA000A /* Build configuration list for PBXNativeTarget "BitcoinTicker" */;
+			buildPhases = (
+				E59C6FD1170EBCCF00CA000A /* Sources */,
+				E59C6FDD170EBCCF00CA000A /* Frameworks */,
+				E59C6FE1170EBCCF00CA000A /* Resources */,
+				E59C6FEC170EBCCF00CA000A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinTicker;
+			productName = BitcoinStatus;
+			productReference = E59C6FF1170EBCCF00CA000A /* BitcoinTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -382,6 +449,7 @@
 			targets = (
 				E5002CC6170C11540057A99C /* BitcoinStatus */,
 				E5002CE6170C11550057A99C /* BitcoinStatusTests */,
+				E59C6FD0170EBCCF00CA000A /* BitcoinTicker */,
 			);
 		};
 /* End PBXProject section */
@@ -413,6 +481,23 @@
 				E5002D4C170C37370057A99C /* I7SPreferenceGeneralViewController.xib in Resources */,
 				E5002D5A170C58670057A99C /* sparkle_update_dsa_pub.pem in Resources */,
 				E5002D5F170C595C0057A99C /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59C6FE1170EBCCF00CA000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59C6FE2170EBCCF00CA000A /* InfoPlist.strings in Resources */,
+				E59C6FE3170EBCCF00CA000A /* Credits.rtf in Resources */,
+				E59C6FE4170EBCCF00CA000A /* MainMenu.xib in Resources */,
+				E59C6FE5170EBCCF00CA000A /* status_bar_icon.png in Resources */,
+				E59C6FE6170EBCCF00CA000A /* status_bar_icon@2x.png in Resources */,
+				E59C6FE7170EBCCF00CA000A /* RHPreferencesWindow.xib in Resources */,
+				E59C6FE9170EBCCF00CA000A /* sparkle_update_dsa_pub.pem in Resources */,
+				E59C6FEA170EBCCF00CA000A /* Localizable.strings in Resources */,
+				E59C6FEB170EBCCF00CA000A /* BitcoinStatus.iconset in Resources */,
+				E59C6FF6170EBE7300CA000A /* I7SPreferenceGeneralViewControllerAppStore.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +552,24 @@
 				E5002D42170C366B0057A99C /* RHPreferencesWindowController.m in Sources */,
 				E5002D4A170C37370057A99C /* I7SPreferenceGeneralViewController.m in Sources */,
 				E5002D56170C55270057A99C /* LaunchAtLoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59C6FD1170EBCCF00CA000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59C6FD2170EBCCF00CA000A /* main.m in Sources */,
+				E59C6FD3170EBCCF00CA000A /* AppDelegate.m in Sources */,
+				E59C6FD4170EBCCF00CA000A /* BSTextView.m in Sources */,
+				E59C6FD5170EBCCF00CA000A /* BSBaseAPILoader.m in Sources */,
+				E59C6FD6170EBCCF00CA000A /* BSMTGOXAPILoader.m in Sources */,
+				E59C6FD7170EBCCF00CA000A /* BSDataFromRemote.m in Sources */,
+				E59C6FD8170EBCCF00CA000A /* I7SStatusIconView.m in Sources */,
+				E59C6FD9170EBCCF00CA000A /* I7SStatusIconViewDragView.m in Sources */,
+				E59C6FDA170EBCCF00CA000A /* RHPreferencesWindowController.m in Sources */,
+				E59C6FDB170EBCCF00CA000A /* I7SPreferenceGeneralViewController.m in Sources */,
+				E59C6FDC170EBCCF00CA000A /* LaunchAtLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +760,46 @@
 			};
 			name = Release;
 		};
+		E59C6FEF170EBCCF00CA000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitcoinTicker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = AppStoreBuild;
+				INFOPLIST_FILE = "BitcoinStatus/BitcoinStatusAppStore-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = BitcoinTicker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E59C6FF0170EBCCF00CA000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BitcoinTicker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitcoinStatus/BitcoinStatus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = AppStoreBuild;
+				INFOPLIST_FILE = "BitcoinStatus/BitcoinStatusAppStore-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = BitcoinTicker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -676,6 +819,7 @@
 				E5002CFA170C11550057A99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5002CFB170C11550057A99C /* Build configuration list for PBXNativeTarget "BitcoinStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +828,16 @@
 				E5002CFD170C11550057A99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59C6FEE170EBCCF00CA000A /* Build configuration list for PBXNativeTarget "BitcoinTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59C6FEF170EBCCF00CA000A /* Debug */,
+				E59C6FF0170EBCCF00CA000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

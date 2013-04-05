@@ -13,6 +13,10 @@
 #import "RHPreferencesWindowController.h"
 #import "LaunchAtLoginController.h"
 
+#ifndef AppStoreBuild
+#import <Sparkle/Sparkle.h>
+#endif
+
 //private declarations
 @interface AppDelegate ()
 @property (strong) NSNumberFormatter * numberFormatter;
@@ -69,7 +73,7 @@
     
     // add a image
     NSImageView *statusMenuIconImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(1, 3,26,18)];
-    statusMenuIconImageView.image = [NSImage imageNamed:@"status_bar_icon.png"];
+    statusMenuIconImageView.image = [NSImage imageNamed:@"status_bar_icon"];
     //[statusMenuIconImageView setWantsLayer:YES];
     
     self.mainTextView = [[BSTextView alloc] initWithFrame:NSMakeRect(15, 3,menuWidth-15,16)];
@@ -131,6 +135,14 @@
                                                  name:BSNewDataFromRemoteNotification
                                                object:nil];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuWillShow:)
+                                                 name:BSMenuWillShowNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuWillHide:)
+                                                 name:BSMenuWillHideNotification
+                                               object:nil];
+    
     
     [self loadData];
     
@@ -177,6 +189,14 @@
     
     // rewrite menu text according to translation files
     self.preferences.title      = NSLocalizedString(@"Preferences", @"Preferences Menu Item");
+    
+#ifdef AppStoreBuild
+    [self.checkForUpdates setHidden:YES];
+#else
+    [self.checkForUpdates setTarget:[SUUpdater sharedUpdater]];
+    [self.checkForUpdates setAction:@selector(checkForUpdates:)];
+#endif
+    
     self.checkForUpdates.title  = NSLocalizedString(@"Check for updates", @"Check for updates Menu Item");
     self.aboutItem.title        = NSLocalizedString(@"About", @"About Menu Item");
     self.quitItem.title         = NSLocalizedString(@"Quit", @"Quit Menu Item");
@@ -197,7 +217,12 @@
 }
 
 - (IBAction)showPreferences:(id)sender {
-    I7SPreferenceGeneralViewController *general = [[I7SPreferenceGeneralViewController alloc] initWithNibName:@"I7SPreferenceGeneralViewController" bundle:nil];
+    NSString *nibName = @"I7SPreferenceGeneralViewController";
+#ifdef AppStoreBuild
+    nibName = @"I7SPreferenceGeneralViewControllerAppStore";
+#endif
+    
+    I7SPreferenceGeneralViewController *general = [[I7SPreferenceGeneralViewController alloc] initWithNibName:nibName bundle:nil];
     
     NSArray *controllers = [NSArray arrayWithObjects:general,
                             nil];
@@ -218,15 +243,17 @@
     [self.updateTimer invalidate];
     self.updateTimer = nil;
     
+    self.statusIconView.alphaValue = 0.5;
     [BSMTGOXAPILoader startLoadValueWithCurrency:self.currency];
 }
 
 
 
 - (void)newDataNotificationRecived:(NSNotification *)notification {
+    self.statusIconView.alphaValue = 1.0;
     BSDataFromRemote *dataModel = notification.object;
     if(!dataModel) {
-        self.mainTextView.string = @"?";
+        self.mainTextView.string = @"-down-";
     }
     else {
         NSNumber *valueNum = [NSNumber numberWithDouble:[dataModel.tradeValue doubleValue]];
@@ -253,7 +280,7 @@
     //self.statusIconView.frame = NSMakeRect(0, 0,bounds.size.width+25,20);
 }
 
-#pragma mark - auto launch controlling
+#pragma mark - auto launch controlling stack
 
 - (BOOL)launchAtStartup {
     LaunchAtLoginController *launchController = [[LaunchAtLoginController alloc] init];
@@ -268,7 +295,7 @@
     launchController = nil;
 }
 
-#pragma mark - configuration values
+#pragma mark - configuration values stack
 
 - (NSString *)currency {
     //!TODO: implement caching
@@ -306,7 +333,7 @@
     return [updateIntervalNumber intValue];
 }
 
-#pragma mark - quick settings
+#pragma mark - quick settings stack
 
 - (IBAction)changeCurrencyWithMenuItem:(NSMenuItem *)menuItem {
     NSLog(@"%@", menuItem.title);
@@ -323,5 +350,16 @@
     
     [menuItem setState:1];
 }
+
+#pragma mark - menu show/hide stack
+
+
+- (void)menuWillShow:(NSNotification *)notification {
+    self.mainTextView.textColor = [NSColor whiteColor];
+}
+- (void)menuWillHide:(NSNotification *)notification {
+    self.mainTextView.textColor = [NSColor blackColor];
+}
+
 
 @end

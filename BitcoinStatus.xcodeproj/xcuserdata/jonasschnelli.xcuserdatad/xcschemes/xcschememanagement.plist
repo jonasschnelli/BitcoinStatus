@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>BitcoinTickerAppStore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>E5002CE6170C11550057A99C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E59C6FD0170EBCCF00CA000A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5A19A46170EB2A9000BC5CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

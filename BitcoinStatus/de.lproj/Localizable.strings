@@ -12,11 +12,11 @@
 
 "Preferences" = "Einstellungen";
 "Check for updates" = "Auf Update überprüfen";
-"About" = "Über BitcoinStatus";
+"About" = "Über BitcoinTicker";
 "Quit" = "Beenden";
 
 "Check for updates at startup" = "Beim Starten nach Updates prüfen";
-"Automatically launch BitcoinStatus at startup" = "BitconStatus beim Systemstart laden";
+"Automatically launch BitcoinStatus at startup" = "BitcoinTicker beim Systemstart laden";
 "Currency" = "Währung";
 
 "General" = "Allgemein";
