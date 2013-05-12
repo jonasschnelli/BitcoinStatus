@@ -158,8 +158,8 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
         
         NSAlert *alert = [[NSAlert alloc] init];
-        [alert addButtonWithTitle:@"OK"];
-        [alert addButtonWithTitle:@"Cancel"];
+        [alert addButtonWithTitle:@"YES"];
+        [alert addButtonWithTitle:@"NO"];
         [alert setMessageText:@"Would you like to start BitcoinStatus when your Computer starts?"];
         [alert setInformativeText:@""];
         [alert setAlertStyle:NSWarningAlertStyle];
