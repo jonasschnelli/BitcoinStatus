@@ -12,7 +12,7 @@
 
 + (void)startLoadValueWithCurrency:(NSString *)currency {
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://data.mtgox.com/api/2/BTC%@/money/ticker", currency]];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:10];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
