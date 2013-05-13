@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E59C6FD0170EBCCF00CA000A"
-               BuildableName = "BitcoinStatus copy.app"
+               BuildableName = "BitcoinTicker.app"
                BlueprintName = "BitcoinTicker"
                ReferencedContainer = "container:BitcoinStatus.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E59C6FD0170EBCCF00CA000A"
-            BuildableName = "BitcoinStatus copy.app"
+            BuildableName = "BitcoinTicker.app"
             BlueprintName = "BitcoinTicker"
             ReferencedContainer = "container:BitcoinStatus.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E59C6FD0170EBCCF00CA000A"
-            BuildableName = "BitcoinStatus copy.app"
+            BuildableName = "BitcoinTicker.app"
             BlueprintName = "BitcoinTicker"
             ReferencedContainer = "container:BitcoinStatus.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E59C6FD0170EBCCF00CA000A"
-            BuildableName = "BitcoinStatus copy.app"
+            BuildableName = "BitcoinTicker.app"
             BlueprintName = "BitcoinTicker"
             ReferencedContainer = "container:BitcoinStatus.xcodeproj">
          </BuildableReference>
