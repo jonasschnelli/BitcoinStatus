@@ -12,10 +12,8 @@ MacAppStore
 -------------
 Application has been submitted to the Apple Mac App Store [05.April 2013]
 
-BinaryInstall 
--------------
-+ Requirements: MacOSX 10.7+ 64Bit
-+ http://www.include7.ch/bitcoinstatusapp/BitcoinStatusV0.1Beta.dmg
+It's available trought the Mac App Store now: https://itunes.apple.com/ch/app/bitcointicker/id632584813?mt=12
+
 
 Todo
 ----
@@ -23,3 +21,7 @@ Todo
 + show a indication when app is updating over the net
 + add more currency and make system more flexible
 + add more APILoader and make it more flexible 
+
+Thanks to:
+- Alan Hogan
+- Michael Ford
